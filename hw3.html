@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form </title>
+    
+  
+  
+  <style>
+    body{
+        font-family: Arial, sans-serif;
+            background-color: rgba(227, 235, 238, 0.119);
+            margin: 0;
+            padding: 0;
+    }
+    form{
+        max-width: 500px;
+            margin: 20px auto;
+            background-color: #7a99bda8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+h1{
+    
+    text-align: center;
+}
+span{
+    
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], select, textarea
+{
+    text-align: center;
+    width: 30%;
+    padding:10px;
+    margin-bottom: 15px;
+    border: 1px solid #ebf1f100;
+    border-radius: 5px;
+    
+
+}
+input[type="radio"], input[type="checkbox"] 
+{          
+            margin-right: 5px;
+        }
+
+        button{
+            
+            background-color: rgb(231, 219, 219);
+            padding:10px 5px;
+            border-radius: 5px;
+            width: 15%;
+            font-size: 16px;
+
+        }
+    </style>
+</head>
+
+<body > 
+<form>
+    <h1> Student Form </h1>
+
+    <span> Student Name </span>
+    <input type="text" placeholder="first name">
+    
+ 
+ <br>
+    <span> Email </span>
+    <input type="text" placeholder="student@gmail.com">
+
+<br>
+<br>
+<span> Student grade level </span>
+
+    <select> 
+        
+        <option> Sophomore </option>
+        <option> Freshman </option>
+        <option> Junior </option>
+        <option> Senior </option>
+    </select>
+
+    <br>
+    <br>
+    
+
+    <span> Gender </span>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+
+
+    <br>
+
+    <br>
+<br>
+<span> Your favourite subject/s </span>
+<input type="checkbox"> English
+<input type="checkbox"> Math
+<input type="checkbox"> Biology
+<input type="checkbox"> Physics
+<input type="checkbox"> Chemistry
+
+<br>
+ <br>
+ <br>
+
+ <span>Additional Comments</span>
+ <textarea rows="4" placeholder="Additional comments"></textarea>
+
+ <br> 
+ <br>
+ <button type="submit">Submit</button>
+
+
+
+ 
+
+ <!-- box-sizing: border-box;<button style="background-color: #00a6ff;">Click me</button>-->
+
+</form>
+</body>
+</html>
